@@ -1,2 +1,2 @@
 console.log('Important mod');
-export default 23;
+export default 99;
