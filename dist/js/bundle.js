@@ -3835,19 +3835,31 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _test = __webpack_require__(/*! ./test */ \"./src/js/test.js\");\n\nvar _test2 = _interopRequireDefault(_test);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar x = 23; // Global app controller\n\nconsole.log('I impotrted ' + _test2.default + ' from test.js! Variable x is' + x);\n\n//# sourceURL=webpack:///./src/js/index.js?");
+eval("\n\nvar _Search = __webpack_require__(/*! ./models/Search */ \"./src/js/models/Search.js\");\n\nvar _Search2 = _interopRequireDefault(_Search);\n\nvar _searchView = __webpack_require__(/*! ./views/searchView */ \"./src/js/views/searchView.js\");\n\nvar searchView = _interopRequireWildcard(_searchView);\n\nfunction _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nconsole.log('Using imported function! ' + searchView.add(searchView.id, 2) + ' and ' + searchView.multiply(3, 5) + '.   and string is ' + _Search2.default);\n\n// https://www.food2fork.com/api/search\n//6f9c0cce0f49620d1933ecaf6afac9a2\n// import axios from 'axios';\n\n// async function getResults(query) {\n//     const key = '6f9c0cce0f49620d1933ecaf6afac9a2';\n//     const res = await axios(`https://www.food2fork.com/api/search?=${key}&q=${query}`);\n//     console.log(res);\n// }\n// getResults();\n\n\n// import { add as a, multiply as m, id } from './views/searchView';\n\n//# sourceURL=webpack:///./src/js/index.js?");
 
 /***/ }),
 
-/***/ "./src/js/test.js":
-/*!************************!*\
-  !*** ./src/js/test.js ***!
-  \************************/
+/***/ "./src/js/models/Search.js":
+/*!*********************************!*\
+  !*** ./src/js/models/Search.js ***!
+  \*********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nconsole.log('Important mod');\nexports.default = 99;\n\n//# sourceURL=webpack:///./src/js/test.js?");
+eval("// export default 'i am exported string';\n\n\n//# sourceURL=webpack:///./src/js/models/Search.js?");
+
+/***/ }),
+
+/***/ "./src/js/views/searchView.js":
+/*!************************************!*\
+  !*** ./src/js/views/searchView.js ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("// export const add = (a, b) => a + b;\n// export const multiply = (a, b) => a * b;\n// export const id = 23;\n\n\n//# sourceURL=webpack:///./src/js/views/searchView.js?");
 
 /***/ }),
 

@@ -7,5 +7,11 @@
 
 // https://www.food2fork.com/api/search
 //6f9c0cce0f49620d1933ecaf6afac9a2
-async function getResults(query) {}
-getResults();
+// import axios from 'axios';
+
+// async function getResults(query) {
+//     const key = '6f9c0cce0f49620d1933ecaf6afac9a2';
+//     const res = await axios(`https://www.food2fork.com/api/search?=${key}&q=${query}`);
+//     console.log(res);
+// }
+// getResults();
