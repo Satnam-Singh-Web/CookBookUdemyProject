@@ -1,6 +1,7 @@
 // https://www.food2fork.com/api/search
 //6f9c0cce0f49620d1933ecaf6afac9a2
 import Search from './models/Search';
+import Recipe from './models/Recipe'
 import { elements, renderLoader, clearLoader } from './views/base';
 import * as searchView from './views/searchView'
 /**
@@ -15,6 +16,7 @@ const state = {};
 const controlSearch = async() => {
     //1. query from the view
     const query = searchView.getInput();
+
     console.log(query);
     if (query) {
         //2. new search object and add to state
@@ -23,17 +25,24 @@ const controlSearch = async() => {
         searchView.clearInput();
         searchView.clearResults();
         renderLoader(elements.searchRes);
-        //4. Search for recipes
-        await state.search.getResults();
-        //5. Render result on UI
-        clearLoader();
-        searchView.renderResults(state.search.result);
+        try {
+            //4. Search for recipes
+            await state.search.getResults();
+            //5. Render result on UI
+            clearLoader();
+            searchView.renderResults(state.search.result);
+        } catch (error) {
+            console.log(error);
+            clearLoader();
+        }
     }
 }
 elements.searchForm.addEventListener('submit', e => {
     e.preventDefault();
     controlSearch();
 });
+
+
 
 elements.searchResPages.addEventListener('click', e => {
     const button = e.target.closest('.btn-inline');
@@ -43,3 +52,33 @@ elements.searchResPages.addEventListener('click', e => {
         searchView.renderResults(state.search.result, goToPage);
     }
 });
+
+// const recipe = new Recipe(46956);
+// recipe.getRecipe();
+// console.log(recipe);
+const controlRecipe = async() => {
+    const id = window.location.hash.replace('#', '');
+    if (id) {
+        //Prepare UI for changes
+        //Create new recipe object
+        state.recipe = new Recipe(id);
+        window.r = state.recipe;
+        try {
+
+            //Get recipe data
+            await state.recipe.getRecipe();
+            state.recipe.parseIngredients();
+            //Calculate servings and time 
+            state.recipe.calcTime();
+            state.recipe.calcServing();
+            // Render recipe
+            console.log(state.recipe);
+        } catch (error) {
+            console.log(error);
+        }
+
+    }
+};
+// window.addEventListener('hashchange', controlRecipe);
+// window.addEventListener('load', controlRecipe);
+['hashchange', 'load'].forEach(event => window.addEventListener(event, controlRecipe));

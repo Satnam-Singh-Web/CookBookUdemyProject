@@ -1,0 +1,500 @@
+   81  exit
+   82  git init
+   83  git add .
+   84  git commit -m "first commit"
+   85  git remote add origin https://Satnam1313@bitbucket.org/Satnam1313/stockwebapp.git
+   86  git push -u origin master
+   87  exit
+   88  git init
+   89  git add .
+   90  git commit -m "first commit"
+   91  git remote add origin https://github.com/Satnam1313/your-ip.git
+   92  git push -u origin master
+   93  exit
+   94  java -jar yuicompressor-2.4.8.jar
+   95  cd '/c/Users/Satnam Singh/Desktop/Assignment/web/yuicompressor-2.4.8.jar'
+   96  cd '/c/Users/Satnam Singh/Desktop/Assignment/web/'
+   97  java -jar yuicompressor-2.4.8.jar type.js -o type-min.js
+   98  ls
+   99  java -jar yuicompressor-2.4.8.jar typed.js -o type-min.js
+  100  java -jar yuicompressor-2.4.8.jar typed.js -o type-min.js
+  101  cd '/c/Users/Satnam Singh/Desktop/Assignment/web'
+  102  uglifyjs --compress --mangle -- index.js
+  103  uglifyjs --compress --mangle -- home.js
+  104  uglifyjs --compress --mangle -- home.js
+  105  uglifyjs --compress --mangle -- home.js
+  106  uglifyjs --compress --mangle -- home.js
+  107  uglifyjs --compress --mangle -- home.js
+  108  uglifyjs --compress --mangle -- home.js
+  109  history 
+  110  exit
+  111  history 
+  112  exit
+  113  rm -rf .git
+  114  git init
+  115  rm -rf .git/
+  116  git init
+  117  git init
+  118  git add .
+  119  git remote add origin https://Satnam1313@bitbucket.org/Satnam1313/stockstimulationapp.git
+  120  git push -u origin master
+  121  git commit -m "Initial commit"
+  122  git push -u origin master
+  123  git remote add origin https://Satnam1313@bitbucket.org/Satnam1313/stockstimulationapp.git
+  124  git push -u origin master
+  125  git clone https://Satnam1313@bitbucket.org/Satnam1313/stockstimulationapp.git
+  126  cd stockstimulationapp
+  127  echo "# My project's README" >> README.md
+  128  git add README.md
+  129  git commit -m "Initial commit"
+  130  git push -u origin master
+  131  rm -rf .git
+  132  rm -rf .git/
+  133  rm -rf .git
+  134  rm -rf .git/
+  135  cd
+  136  cd StockStimulationWebApp.csproj
+  137  rm -rf .git
+  138  git init
+  139  git clone https://Satnam1313@bitbucket.org/Satnam1313/stockstimulationwebapp.git
+  140  cd stockstimulationwebapp
+  141  echo "# My project's README" >> README.md
+  142  git add README.md
+  143  git commit -m "Initial commit"
+  144  git push -u origin master
+  145  git push -u origin master
+  146  git pull origin master 
+  147  git push -u origin master
+  148  git push --help
+  149   git remote add origin https://Satnam1313@bitbucket.org/Satnam1313/stockstimulationapp.git
+  150  git push -u origin master
+  151  rm -rf .git
+  152  cd ..
+  153  re -rf .git/
+  154  rm -rf .git/
+  155  gir init
+  156  git init
+  157  git clone https://Satnam1313@bitbucket.org/Satnam1313/stockstimulationwebapp.git
+  158  cd stockstimulationwebapp
+  159  echo "# My project's README" >> README.md git add README.md git commit -m "Initial commit" git push -u origin master
+  160  git add README.md
+  161  git commit -m "Initial commit"
+  162  git push -u origin master
+  163  git remote add origin https://Satnam1313@bitbucket.org/Satnam1313/stockstimulationapp.git
+  164  rm -rf .git
+  165  cd
+  166  cd ~/Desktop/check it/StockStimulationWebApp/StockStimulationWebApp
+  167  cd Desktop/
+  168  cd check\ it/
+  169  cd StockStimulationWebApp/
+  170  git commit -m "Second commit"
+  171  cd StockStimulationWebApp
+  172  git commit -m "Second commit"
+  173  git push -u origin master
+  174  git status 
+  175  git add .
+  176  git commit -m "Second commit"
+  177  rm -rf .git/
+  178  cd ..
+  179  git init
+  180  gut add .
+  181  git add .
+  182  git commit -m "Second commit"
+  183  git push -u origin master
+  184  git remote add origin https://Satnam1313@bitbucket.org/Satnam1313/stockstimulationapp.git
+  185  git clone https://Satnam1313@bitbucket.org/Satnam1313/stockstimulationwebapp.git
+  186  git remote add orginhttps://Satnam1313@bitbucket.org/Satnam1313/stockstimulationwebapp.git
+  187  git remote add orgin https://Satnam1313@bitbucket.org/Satnam1313/stockstimulationwebapp.git
+  188  git push -u origin master
+  189  cd StockStimulationWebApp
+  190  git clone https://Satnam1313@bitbucket.org/Satnam1313/stockstimulationwebapp.git
+  191  git clone https://Satnam1313@bitbucket.org/Satnam1313/stockstimulationwebapp.git
+  192  git commit -m "Second commit"
+  193  git add .
+  194  git commit -m "Second commit"
+  195  git push -u origin master
+  196  cd ..
+  197  git push -u origin master
+  198  cd ..
+  199  git push -u origin master
+  200  cd StockStimulationWebApp/
+  201  git push -u origin master
+  202  cd StockStimulationWebApp
+  203  cd stockstimulationwebapp
+  204  ls
+  205  git push -u origin master
+  206  git commit -m "Second commit"
+  207  git push -u origin master
+  208  git remote add origin https://Satnam1313@bitbucket.org/Satnam1313/stockstimulationwebapp.git
+  209  git push -u origin master
+  210  cd ..
+  211  git remote add origin https://Satnam1313@bitbucket.org/Satnam1313/stockstimulationwebapp.git
+  212  git remote add origin https://Satnam1313@bitbucket.org/Satnam1313/stockstimulationwebapp.git
+  213  rm -rf .git
+  214  cd ..
+  215  rm -rf .git
+  216  cd StockStimulationWebApp
+  217  fit init
+  218  git init
+  219  git add .
+  220  git status 
+  221  git remote add origin https://Satnam1313@bitbucket.org/Satnam1313/stockstimulationwebapp.git
+  222  git push -u origin master
+  223  git push -a
+  224  git push all
+  225  cd ..
+  226  git status
+  227  cd StockStimulationWebApp
+  228  git status
+  229  git commit -m "Initial Commit:
+  230  git commit -m "Initial Commit:
+  231  git commit -m "Initial Commit"
+  232  git push -u origin master
+  233  git commit "second commit"
+  234  git commit -m "second commit"
+  235  git push -u origin master
+  236  git pull
+  237  git push -u origin master
+  238  git init
+  239  git status
+  240  git add .
+  241  git commit -m "Initial commit"
+  242  git remote add origin https://github.com/Satnam-Singh-Web/realtime-stocks.git
+  243  git push -u origin master
+  244  git push -u origin master
+  245  git push -u origin master
+  246  git status 
+  247  rem -rf README.md 
+  248  rm -rf README.md 
+  249  ls
+  250  al
+  251  ls -l
+  252  rm -rf .git/
+  253  cd StockStimulationWebApp
+  254  cd .
+  255  cd ..
+  256  git init
+  257  git status
+  258  git add .
+  259  git status 
+  260  git commit -m "first commit"
+  261  git remote add origin https://github.com/Satnam-Singh-Web/realtime-stocks.git
+  262  git push -u origin master
+  263  git push -u origin master
+  264  git logout
+  265  git push -u origin master
+  266  git status
+  267  git add .
+  268  git commit -m "updated csproj file"
+  269  git push -u origin master
+  270  git add .
+  271  git commit -m "update 2 csproj file"
+  272  git push -u origin master
+  273  git commit -m "update 3 csproj file"
+  274  git add .
+  275  git push -u origin master
+  276  git commit -m "update 3 csproj file"
+  277  git push -u origin master
+  278  git status 
+  279  git add .
+  280  git commit -m "changed file posotion"
+  281  git push -u origin master
+  282  git status
+  283  git add .
+  284  git commit -m "fixed routing"
+  285  git push -u origin master
+  286  git init
+  287  git status
+  288  git add .
+  289  git commit -m "first commit"
+  290  git remote add origin https://github.com/Satnam-Singh-Web/realtime-stocks.git
+  291  git push -u origin master
+  292  git add .
+  293  git commit -m "changed the graph view"
+  294  git status 
+  295  rm -rf softup.exe 
+  296  rm -rf Install/
+  297  cd Install/
+  298  cd \{
+  299  ls
+  300  cd \{057BDB0D-BA50-4930-952B-CB3688180AB9}
+  301  rm -rf 60.0.3112.113_60.0.3112.101_chrome_updater.exe 
+  302  cd ..
+  303  rm -rf {057BDB0D-BA50-4930-952B-CB3688180AB9}
+  304  exit
+  305  cd '/c/Users/Satnam Singh/Videos/Mirror Videos/realtime-stocks-master'
+  306  git status 
+  307  git init 
+  308  git add .
+  309  git status 
+  310  git init
+  311  exit
+  312  cd /d/Important/StocksStimulationProject/jsonStockData/AspFile/jsonStockData
+  313  git init
+  314  git add --all
+  315  git commit -m 'Initial commit'
+  316  git status
+  317  git push
+  318  git add ..
+  319  cd
+  320  cd /d/Important/StocksStimulationProject/jsonStockData/AspFile/jsonStockData
+  321  dir
+  322  hg add
+  323  history
+  324  cd /d/Important/StocksStimulationProject/jsonStockData/AspFile/jsonStockData
+  325  git init
+  326  git add .
+  327  git commit -m 'Initial Commit'
+  328  git remote add origin https://Satnam1313@bitbucket.org/Satnam1313/stockst                                                                                                                                                                                               imulationwebapp.git
+  329  git remote add origin https://Satnam1313@bitbucket.org/Satnam1313/jsonStockData.git
+  330  git status
+  331  git push -m orign master
+  332  git remote add origin ssh://git@bitbucket.org/Satnam1313/jsonStockData.git
+  333  git push -u origin --all
+  334  cd /d/Important/marketApp/marketApp/marketApp
+  335  git init
+  336  git add .
+  337  git commit -m "first commit"
+  338  git remote add origin https://Satnam_Singh_Web@bitbucket.org/Satnam_Singh_Web/marketapp.git
+  339  git push -u origin master
+  340  cd /d/Important/StocksStimulationProject/jsonStockData/AspFile/jsonStockData
+  341  rm -rf .git
+  342  git init
+  343  git add .
+  344  git remote add origin ssh://git@bitbucket.org/Satnam1313/jsonStockData.git
+  345  git push -u origin --all
+  346  git push -u origin --all
+  347  ssh git@bitbucket.org
+  348  git status
+  349  git add .
+  350  git remote add origin ssh://git@bitbucket.org/Satnam1313/jsonStockData.git
+  351  git push -u origin --all
+  352  rm -rf .git
+  353  git init
+  354  git add .
+  355  rm -rf .git
+  356  ls
+  357  cd jsonStockData
+  358  git init
+  359  git add .
+  360  git remote add origin ssh://git@bitbucket.org/Satnam1313/jsonStockData.git
+  361  git push -u origin --all
+  362  git remote add origin https://git@bitbucket.org/Satnam1313/jsonStockData.git
+  363  git push -u origin --all
+  364  rm -rf .git
+  365  git init
+  366  git remote add origin https://git@bitbucket.org/Satnam1313/jsonStockData.git
+  367  git push -u origin --all
+  368  git remote add origin https://bitbucket.org/Satnam1313/jsonstockdata/
+  369  git push -u origin --all
+  370  git push -u origin --all
+  371  git clone https://Satnam1313@bitbucket.org/Satnam1313/jsonstockdata.git
+  372  git push -u origin --all
+  373  git remote add origin https://Satnam1313@bitbucket.org/Satnam1313/jsonstockdata.git
+  374  git push -u origin --all
+  375  git remote add origin https://Satnam1313@bitbucket.org/Satnam1313/jsonstockdata.git
+  376  git push -u origin --all
+  377  git remote add origin https://bitbucket.org/Satnam1313/jsonstockdata/
+  378  git push -u origin --all
+  379  git push -u origin --all
+  380  history 
+  381  git add .
+  382  ls
+  383  rm -rf .git
+  384  git init
+  385  git add .
+  386  git rm --cached
+  387  cd jsonstockdata
+  388  ls
+  389  rm -rf .git
+  390  rm -rf .git
+  391  cd ..
+  392  rm -rf .git
+  393  git remote add origin https://Satnam_Singh_Web@bitbucket.org/Satnam_Singh_Web/jsonstockdata.git
+  394  git init
+  395  git remote add origin https://Satnam_Singh_Web@bitbucket.org/Satnam_Singh_Web/jsonstockdata.git
+  396  git push -u origin master
+  397  git add .
+  398  git push -u origin master
+  399  git commit -m 'Initial Commit'
+  400  rm -rf .git
+  401  cd ..
+  402  ls
+  403  git init
+  404  git add .
+  405  cd jsonStockData
+  406  git add .
+  407  git commit -m "initial commit"
+  408  git push -u origin master
+  409  git remote add origin https://Satnam_Singh_Web@bitbucket.org/Satnam_Singh_Web/jsonstockdata.git
+  410  git push -u origin master
+  411  cd /d/Important/StocksStimulationProject
+  412  ls
+  413  cd Stock\ Project/
+  414  git init
+  415  gitadd .
+  416  git add .
+  417  git commit -m "Initial Commit"
+  418  git remote add origin https://Satnam_Singh_Web@bitbucket.org/Satnam_Singh_Web/stocksapp.git
+  419  git push -u origin master
+  420  ls
+  421  git push -u origin master
+  422  git status
+  423  git add .
+  424  git status
+  425  git commit -m "Initial Commit"
+  426  git remote add origin https://Satnam_Singh_Web@bitbucket.org/Satnam_Singh_Web/stocksapp.git
+  427  git push -u origin master
+  428  git push -u origin master
+  429  git pull origin 
+  430  git pull origin master 
+  431  git pull origin HEAD 
+  432  git push -u origin master
+  433  cd ..
+  434  ls
+  435  cd jsonStockData/
+  436  ls
+  437  cd AspFile/
+  438  ld
+  439  ls
+  440  cd jsonStockData/
+  441  git commit -m "removed 404 error"
+  442  git add .
+  443  cd jsonStockData
+  444  git commit -m "removed 404 error"
+  445  git add .
+  446  git commit -m "removed 404 error"
+  447  git push -u origin master
+  448  cd
+  449  cd  /d/Important/
+  450  ls
+  451  cd D:\Important\Projects\CompEmpDir
+  452  git init
+  453  git add .
+  454  git commit -m "first commit"
+  455  git remote add origin https://github.com/Satnam-Singh-Web/CompEmpDir.git
+  456  git push -u origin master
+  457  git push -u origin master
+  458  git stage 
+  459  git stash 
+  460  hi
+  461  curl.exe 
+  462  curl https://www.udemy.com/the-complete-javascript-course/learn/v4/t/lecture/9939778?start=0
+  463  local
+  464  clear
+  465  cd D:\Important\Projects
+  466  cd ..
+  467  cd CookBook/
+  468  dir
+  469  ls
+  470  ls  -a
+  471  node -v
+  472  cd ..
+  473  cd ..
+  474  cd ..
+  475  cd ..
+  476  node -v
+  477  node -v
+  478  c:
+  479  dir
+  480  cd ..
+  481  cd c:
+  482  dir
+  483  cd Users/
+  484  cd Satnam Singh/
+  485  cd 'Satnam Singh'/
+  486  cd Users/
+  487  cd c"
+  488  '
+  489  'vs
+  490  'er
+  491  ;re
+  492  ZZ;re
+  493  cd CookBook/
+  494  npm 
+  495  npm init
+  496  ls
+  497  npm install webpack --save-dev
+  498  clear
+  499  npm install jquery --save
+  500  npm uninstall jquery --save
+  501  npm install live-server --global
+  502  npm init
+  503  cd ..
+  504  live-server 
+  505  cd CookBook/
+  506  ls
+  507  start package-lock.json 
+  508  npm install webpack-cli
+  509  npm uninstall webpack-cli
+  510  npm install webpack-cli --save-dev
+  511  npm run dev
+  512  npm run dev
+  513  open dist/index.html 
+  514  start dist/index.html 
+  515  start dist/index.html 
+  516  start dist/index.html 
+  517  clear
+  518  npm run dev
+  519  npm run build
+  520  npm i terser@3.14  
+  521  npm run build
+  522  npm install webpack-dev-server --save-dev
+  523  ls
+  524  git init
+  525  git add .
+  526  git commit -m "webpack and node packages" 
+  527   
+  528  git remote add origin https://github.com/Satnam-Singh-Web/CookBookUdemyProject.git
+  529  git push -u origin master
+  530  npm run start
+  531  npm run start
+  532  npm install html--webpack-plugin --save-dev
+  533  npm install html-webpack-plugin --save-dev
+  534  npm run start
+  535  npm run dev
+  536  npm install babel-core babel-preset-env babel-loader --save-dev
+  537  npm install babel-polyfill --save
+  538  npm run start
+  539  npm run dev
+  540  npm run dev
+  541  npm run dev
+  542  npm install babel-loader@7
+  543  npm run dev
+  544  npm run start
+  545  npm run dev
+  546  npm run start
+  547  npm install axios --save
+  548  npm run start
+  549  npm run start
+  550  npm uninstall babel-loader
+  551  npm start dev
+  552  npm run dev
+  553  npm uninstall babel-loader
+  554  npm install babel-loader@7
+  555  npm run dev
+  556  npm run start
+  557  npm uninstall babel-loader
+  558  npm install babel-loader@7 --save-dev
+  559  npm run start
+  560  npm run start
+  561  npm run dev
+  562  npm run start
+  563  history
+  564  history for print.txt
+  565  history_for_print.txt
+  566  history history_for_print.txt
+  567  git log > log.txt
+  568  ls
+  569  rm log.txt 
+  570  history 
+  571  history log>history.txt
+  572  history log > history.txt
+  573  history log > 1
+  574  history 1
+  575  history 1.txt
+  576  history > file.txt
+  577  rm file.txt
+  578  rm 1
+  579  rm history.txt 
+  580  history > history.json
