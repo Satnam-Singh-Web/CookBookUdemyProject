@@ -3,11 +3,12 @@ export const elements = {
     searchInput: document.querySelector('.search__field'),
     searchRes: document.querySelector('.results'),
     searchResList: document.querySelector('.results__list'),
-    searchResPages: document.querySelector('.results__pages')
-}
+    searchResPages: document.querySelector('.results__pages'),
+    recipe: document.querySelector('.recipe')
+};
 export const elementStrings = {
     loader: 'loader'
-}
+};
 export const renderLoader = parent => {
     const loader = `
         <div class="${elementStrings.loader}">
@@ -21,4 +22,4 @@ export const renderLoader = parent => {
 export const clearLoader = () => {
     const loader = document.querySelector(`.${elementStrings.loader}`);
     if (loader) loader.parentElement.removeChild(loader);
-}
+};
