@@ -1,7 +1,8 @@
 // https://www.food2fork.com/api/search
 //6f9c0cce0f49620d1933ecaf6afac9a2
 import Search from './models/Search';
-import Recipe from './models/Recipe'
+import Recipe from './models/Recipe';
+import List from './models/List';
 import { elements, renderLoader, clearLoader } from './views/base';
 import * as searchView from './views/searchView';
 import * as recipeView from './views/recipeView';
@@ -63,6 +64,11 @@ const controlRecipe = async() => {
         //Prepare UI for changes
         recipeView.clearRecipe();
         renderLoader(elements.recipe);
+
+        //Highlight selected recipe
+        if (state.search) {
+            searchView.highlightSelected(id);
+        }
         //Create new recipe object
         state.recipe = new Recipe(id);
         try {
@@ -85,3 +91,18 @@ const controlRecipe = async() => {
 // window.addEventListener('hashchange', controlRecipe);
 // window.addEventListener('load', controlRecipe);
 ['hashchange', 'load'].forEach(event => window.addEventListener(event, controlRecipe));
+//Handling recipe button clicks
+elements.recipe.addEventListener('click', e => {
+    if (e.target.matches('.btn-dec,.btn-dec *')) {
+        if (state.recipe.serving > 1) {
+            state.recipe.updateServings('dec');
+            recipeView.updateServingIngredients(state.recipe);
+        }
+    } else if (e.target.matches('.btn-inc,.btn-inc *')) {
+        state.recipe.updateServings('inc');
+        recipeView.updateServingIngredients(state.recipe);
+    }
+    console.log(state.recipe);
+});
+
+const l = new List();
