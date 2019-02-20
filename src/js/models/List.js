@@ -3,7 +3,7 @@ export default class List {
     constructor() {
         this.items = [];
     }
-    addItme(count, unit, ingredient) {
+    addItem(count, unit, ingredient) {
         const item = {
             id: uniqid(),
             count,
