@@ -134,9 +134,6 @@ elements.shopping.addEventListener('click', e => {
  * List Controller
  *
  */
-state.likes = new Likes();
-
-likesView.toggleLikeMenu(state.likes.getNumberLikes());
 const controlLike = () => {
     if (!state.likes) state.likes = new Likes();
     const currentID = state.recipe.id;
@@ -159,7 +156,7 @@ const controlLike = () => {
         //User has liked current recipe
     } else {
         //remove like to the state
-        state.likes.deleteLike(curretntID);
+        state.likes.deleteLike(currentID);
         //Toggle the like button
         likesView.toggleLikedBtn(false);
 
@@ -170,7 +167,22 @@ const controlLike = () => {
 
     likesView.toggleLikeMenu(state.likes.getNumberLikes());
 };
+//Restore like recipes on page load
+window.addEventListener('load', () => {
 
+    // state.likes = new Likes();
+    // state.likes.readStroage();
+    // likesView.toggleLikeMenu(state.likes.getNumberLikes());
+    // state.likes.likes.forEach(like => likesView.renderLike(like));
+    // console.log(state.likes = new Likes(),
+    //     state.likes.readStroage(),
+    //     likesView.toggleLikeMenu(state.likes.getNumberLikes()),
+    //     state.likes.likes.forEach(like => likesView.renderLike(like)));
+})
+state.likes = new Likes();
+state.likes.readStroage();
+likesView.toggleLikeMenu(state.likes.getNumberLikes());
+state.likes.likes.forEach(like => likesView.renderLike(like));
 //Handling recipe button clicks
 elements.recipe.addEventListener('click', e => {
     if (e.target.matches('.btn-dec,.btn-dec *')) {
