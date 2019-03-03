@@ -8,7 +8,6 @@ export default class Recipe {
     async getRecipe() {
         try {
             const res = await axios(`${proxy}https://www.food2fork.com/api/get?key=${key}&rId=${this.id}`);
-            console.log(res);
             this.title = res.data.recipe.title;
             this.author = res.data.recipe.publisher;
             this.img = res.data.recipe.image_url;
@@ -41,9 +40,8 @@ export default class Recipe {
             ingredient = ingredient.replace(/ *\([^)]*\) */g, ' ');
             //3. Parse ingredients into count , unit and ingredients
             const arrIng = ingredient.split(' ');
-            console.log(arrIng);
             const unitIndex = arrIng.findIndex(el2 => units.includes(el2));
-            console.log(unitIndex);
+
             let objIng;
             if (unitIndex > -1) {
                 // there is unit
@@ -59,14 +57,12 @@ export default class Recipe {
                     unit: arrIng[unitIndex],
                     ingredient: arrIng.slice(unitIndex + 1).join(' ')
                 };
-                console.log(ingredient);
             } else if (parseInt(arrIng[0], 10)) {
                 objIng = {
                     count: parseInt(arrIng[0], 10),
                     unit: '',
                     ingredient: arrIng.slice(1).join(' ')
                 };
-                console.log(ingredient);
             } else if (unitIndex === -1) {
                 //There is no unit
                 objIng = {
